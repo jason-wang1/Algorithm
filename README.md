@@ -25,5 +25,7 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-11-30   |   https://leetcode-cn.com/problems/binary-search/   |
 |   2020-12-01   |   https://leetcode-cn.com/problems/merge-two-sorted-lists/   |
 |   2020-12-02   |   https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof//   |
+|   2020-12-03   |   https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/   |
+|   2020-12-04   |   https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/   |
 
 [力扣]: https://leetcode-cn.com/problemset/all/
