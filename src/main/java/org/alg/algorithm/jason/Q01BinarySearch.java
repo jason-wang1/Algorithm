@@ -10,7 +10,7 @@ package org.alg.algorithm.jason;
  * @author WangBo
  * @version 1.0
  */
-public class BinarySearch {
+public class Q01BinarySearch {
     public static void main(String args[]){
         int[] nums = {-1,0,3,5,9,12};
         System.out.println(search(nums, 9));

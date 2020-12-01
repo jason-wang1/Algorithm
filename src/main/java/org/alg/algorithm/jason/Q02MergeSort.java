@@ -11,7 +11,7 @@ import java.util.Stack;
  * @author WangBo
  * @version 1.0
  */
-public class MergeSort {
+public class Q02MergeSort {
     public static void main(String args[]){
         int[] arr1 = {1, 2, 4};
         int[] arr2 = {1, 3, 4};
