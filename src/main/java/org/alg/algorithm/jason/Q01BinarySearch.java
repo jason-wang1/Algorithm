@@ -1,8 +1,8 @@
 package org.alg.algorithm.jason;
 
 /**
- * Descreption:
- * 有序数组的二分查找 https://leetcode-cn.com/problems/binary-search/
+ * Descreption: 有序数组的二分查找
+ * https://leetcode-cn.com/problems/binary-search/
  * 时间复杂度：O(log(N))
  *
  * Date: 2020年11月30日
