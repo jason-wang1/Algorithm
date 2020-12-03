@@ -34,9 +34,10 @@ public class Q05DepthOfBinaryTree {
             depth ++;
             if (depth > resDepth)
                 resDepth = depth;
-            System.out.println("所在节点为："+root.val+"，深度为："+depth);
+            System.out.println(root.val+" 入栈，深度为："+depth);
             search(root.left, depth);
             search(root.right, depth);
+            System.out.println(root.val+" 出栈");
         }
     }
 }
