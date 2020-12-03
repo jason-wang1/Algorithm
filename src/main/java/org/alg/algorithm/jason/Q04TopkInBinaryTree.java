@@ -1,5 +1,8 @@
 package org.alg.algorithm.jason;
 
+import org.alg.algorithm.jason.structure.BinaryTree;
+import org.alg.algorithm.jason.structure.BinaryTree.TreeNode;
+
 /**
  * Descreption: 查找一棵二叉树的第k大元素值
  * 考察点：中序遍历（递归）
@@ -13,9 +16,9 @@ package org.alg.algorithm.jason;
 public class Q04TopkInBinaryTree {
     public static void main(String args[]){
         int[] arrs = {8, 5, 12, 3, 10, 11, 15};
-        initTree(arrs);
+        BinaryTree binaryTree = new BinaryTree(arrs);
 
-        System.out.println(kthLargest(root, 1));
+        System.out.println(kthLargest(binaryTree.root, 1));
     }
 
     static int count;
@@ -49,41 +52,5 @@ public class Q04TopkInBinaryTree {
             System.out.println(root.val+" 出栈");
         }
         // root == null 时为初始状态，直接return
-    }
-
-    /**
-     * 树的根节点
-     */
-    static TreeNode root;
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
-
-    /**
-     * 递归放入一个元素
-     */
-    public static void put(int val){
-        root = put(root, val);
-    }
-
-    private static TreeNode put(TreeNode root, int val) {
-        if (root == null)
-            return new TreeNode(val);
-        if (val < root.val)
-            root.left = put(root.left, val);
-        else if (val > root.val)
-            root.right = put(root.right, val);
-        return root;
-    }
-
-    public static void initTree(int[] vals){
-        root = null;
-        for (int val : vals) {
-            put(val);
-        }
     }
 }
