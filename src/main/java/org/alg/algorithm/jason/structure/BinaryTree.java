@@ -13,7 +13,7 @@ public class BinaryTree {
      */
     public TreeNode root;
 
-    public static class TreeNode {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
@@ -27,7 +27,7 @@ public class BinaryTree {
         root = put(root, val);
     }
 
-    private static TreeNode put(TreeNode root, int val) {
+    private TreeNode put(TreeNode root, int val) {
         if (root == null)
             return new TreeNode(val);
         if (val < root.val)
