@@ -24,16 +24,23 @@ public class BinaryTree {
      * 递归放入一个元素
      */
     public void put(int val){
+//        System.out.println("插入元素："+val);
         root = put(root, val);
     }
 
+    /**
+     * put方法也是采用“递归”方法实现的，但不同于中序遍历，
+     * 往左走、往右走加上了一个if else判断条件，使得它不会遍历，因此时间复杂度为O(log(N))
+     */
     private TreeNode put(TreeNode root, int val) {
         if (root == null)
             return new TreeNode(val);
+//        System.out.println(root.val+"入栈");
         if (val < root.val)
             root.left = put(root.left, val);
         else if (val > root.val)
             root.right = put(root.right, val);
+//        System.out.println(root.val+"出栈");
         return root;
     }
 
