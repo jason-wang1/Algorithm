@@ -1,4 +1,4 @@
-package org.alg.algorithm.jason;
+package org.alg.algorithm.jason.week1;
 
 import org.alg.algorithm.jason.structure.BinaryTree;
 import org.alg.algorithm.jason.structure.BinaryTree.TreeNode;

@@ -1,4 +1,4 @@
-package org.alg.algorithm.jason;
+package org.alg.algorithm.jason.week1;
 
 import java.util.Stack;
 
