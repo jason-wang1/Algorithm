@@ -5,20 +5,18 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 ## 训练范围
 训练的题目来自力扣官网[https://leetcode-cn.com/problemset/all/][力扣]
 题目被划分成不同类型，两周为一个周期，能够训练完全部类型，具体如下：
-1. 数组
+1. 数组+排序
 2. 链表+堆
 3. 栈+队列
 4. 二叉树
 5. 深度优先搜索+广度优先搜索
-6. 图
-7. 动态规划
-8. 递归+分治+回溯
-9. 哈希表
-10. 贪心算法
-11. 字典树+二叉树
-12. 位运算+排序
-13. 并查集+剪枝+字典树
-14. 动态规划
+6. 动态规划
+1. 剪枝+字典树
+2. 哈希表
+3. 贪心算法
+4. 位运算+并查集
+5. 递归+分治+回溯
+6. 动态规划
 ## 训练题目
 | 日期   | 题目   |
 | ---- | ---- |
@@ -27,5 +25,7 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-12-02   |   https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof//   |
 |   2020-12-03   |   https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/   |
 |   2020-12-04   |   https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/   |
+|   2020-12-05   |   https://leetcode-cn.com/problems/contiguous-sequence-lcci/   |
+|   2020-12-06   |   无   |
 
 [力扣]: https://leetcode-cn.com/problemset/all/
