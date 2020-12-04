@@ -14,23 +14,29 @@ import java.util.Map;
  */
 public class Fibonacci {
     public static void main(String args[]){
-        System.out.println(getFib1(45));
+        System.out.println(getFib1(5));
     }
 
     /**
      * 使用递归获取斐波拉契数列第n项，这里存在大量重复计算
      */
     public static long getFib1(long n){
+        System.out.println(n+"入栈");
         // n = 0,1 时，初始状态
         if (n < 2)
             return n;
 
         // n >= 2 时，非初始状态，假设前一状态已经解决
-        return getFib1(n-1) + getFib1(n-2);
+        long res = getFib1(n - 1) + getFib1(n - 2);
+        System.out.println((n-1)+"出栈，"+(n-2)+"出栈");
+        return res;
     }
 
     private static Map<Integer, Integer> cache = new HashMap<Integer, Integer>();
 
+    /**
+     * 使用递归获取斐波拉契数列第n项，记忆化存储中间状态，避免重复计算
+     */
     public static int getFib2(int n){
         // n = 0,1 时，初始状态
         if (n < 2)
