@@ -11,11 +11,11 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 4. 二叉树
 5. 深度优先搜索+广度优先搜索
 6. 动态规划
-1. 剪枝+字典树
+1. 递归+分治
 2. 哈希表
 3. 贪心算法
 4. 位运算+并查集
-5. 递归+分治+回溯
+5. 递归+回溯
 6. 动态规划
 ## 训练题目
 | 日期   | 题目   |
@@ -27,5 +27,8 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-12-04   |   https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/   |
 |   2020-12-05   |   https://leetcode-cn.com/problems/contiguous-sequence-lcci/   |
 |   2020-12-06   |   无   |
+|   2020-12-07   |   https://leetcode-cn.com/problems/sorted-matrix-search-lcci/   |
+|   2020-12-08   |   https://leetcode-cn.com/problems/number-of-good-pairs/   |
+|   2020-12-09   |   https://leetcode-cn.com/problems/smallest-string-with-a-given-numeric-value/   |
 
 [力扣]: https://leetcode-cn.com/problemset/all/
