@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>john</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <!-- junit的版本有3.x, 4.x, 5.x 5.x还没有发布, 现在都用是4.x -->
+        </dependency>
+    </dependencies>
 
 
 </project>
