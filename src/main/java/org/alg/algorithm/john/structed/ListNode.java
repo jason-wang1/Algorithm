@@ -1,4 +1,4 @@
-package structed;
+package org.alg.algorithm.john.structed;
 
 /**
  * ClassName structed.ListNode

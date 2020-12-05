@@ -1,4 +1,4 @@
-package structed;
+package org.alg.algorithm.john.structed;
 
 
 import org.junit.Test;

@@ -1,5 +1,7 @@
-import structed.ListNode;
+package org.alg.algorithm.john;
 
+
+import org.alg.algorithm.john.structed.ListNode;
 
 /**
  * ClassName MergeSortedListNode
@@ -10,7 +12,7 @@ import structed.ListNode;
  * Date 12/1/20 10:32 PM
  */
 public class MergeSortedListNode {
-    public  ListNode solution(ListNode l1,ListNode l2){
+    public ListNode solution(ListNode l1, ListNode l2){
         ListNode preHead = new ListNode(0);
         ListNode temp = preHead;
         while(l1!=null&&l2!=null){

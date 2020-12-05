@@ -1,3 +1,5 @@
+package org.alg.algorithm.john;
+
 import java.util.LinkedList;
 
 /**
