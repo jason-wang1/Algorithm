@@ -3,7 +3,7 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 ## 环境要求
 - Java 8
 ## 训练范围
-训练的题目来自力扣官网[https://leetcode-cn.com/problemset/all/][力扣]
+训练的题目来自[力扣官网](https://leetcode-cn.com/problemset/all/)
 题目被划分成不同类型，两周为一个周期，能够训练完全部类型，具体如下：
 1. 数组+排序
 2. 链表+堆
