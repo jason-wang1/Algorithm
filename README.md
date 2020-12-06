@@ -27,7 +27,7 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-12-04   |   [二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)   |
 |   2020-12-05   |   [连续数列](https://leetcode-cn.com/problems/contiguous-sequence-lcci/)   |
 |   2020-12-06   |   无   |
-|   2020-12-07   |   [排序矩阵查找](https://leetcode-cn.com/problems/sorted-matrix-search-lcci/)   |
+|   2020-12-07   |   [最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)   |
 |   2020-12-08   |   [好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)   |
 |   2020-12-09   |   [具有给定数值的最小字符串](https://leetcode-cn.com/problems/smallest-string-with-a-given-numeric-value/)   |
 
