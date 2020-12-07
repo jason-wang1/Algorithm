@@ -21,7 +21,7 @@ public class Q02GoodPairs {
     private HashMap<Integer, Integer> dupNums;
 
     public int numIdenticalPairs(int[] nums) {
-        dupNums = new HashMap<Integer, Integer>(nums.length);
+        dupNums = new HashMap<>(nums.length);
         for (int num : nums) {
             dupNums.put(num, dupNums.getOrDefault(num, 0) + 1);
         }
