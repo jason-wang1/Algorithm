@@ -30,5 +30,8 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-12-07   |   [最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)   |
 |   2020-12-08   |   [好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)   |
 |   2020-12-09   |   [具有给定数值的最小字符串](https://leetcode-cn.com/problems/smallest-string-with-a-given-numeric-value/)   |
+|   2020-12-10   |   [两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/)   |
+|   2020-12-11   |   [幂集](https://leetcode-cn.com/problems/power-set-lcci/)   |
+|   2020-12-12   |   [股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)   |
 
 [力扣]: https://leetcode-cn.com/problemset/all/
