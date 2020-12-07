@@ -1,4 +1,6 @@
-**
+package org.alg.algorithm.James;
+
+/**
    Aurthor:zhuhua
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -14,4 +16,9 @@ class Solution {
     }
 
 }
-~
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
