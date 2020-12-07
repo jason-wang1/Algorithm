@@ -2,6 +2,7 @@ package org.alg.algorithm.jason.week2;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
+import java.util.Timer;
 
 public class Q01SmallestK {
     public static void main(String[] args) {
@@ -10,16 +11,14 @@ public class Q01SmallestK {
                 47143,61,-8,62296,-6,30,-9,-45678,-296,-5053,26893,-470,52002,78,-3,51,93,-24361,363,484,-2,-5937,6833,-386,-3501,59,4,-4410,-141,963,-42466,-7940,-57199,-65,198,-53,-38141,6,4294,-98,3832,89,-430,-58,22073,23004,-25,10856,392,4,18,-37396,19,-87,-60,87,4977,2,88,27008,34390,-640,-94,4616,48602,-8022,-66,785,0,40367,-7114,68,-41276,23635,-24442,1,9389,604,4342,-864,-23812,-7,4997,74,3669,-42503,-662,-9,4891,51093,-92,-2,67,-42,8,-6,315,36827,4238,-35,588,46,10670,30669,52630,9859,3298,-50,-4121,-2407,-110,-84,954,-7,816,852,440,0,-86,830,-916,3,-62,-927,6,-808,-39,27300,-2,54,65418,52211,61,-55531,26,55115,-14,460,99,-7,6069,-7980,-6731,-4041,4,
                 7,-1,3,7364,-65348,37,-5,1,-52,-6,33,979,-2298,4582,-4,-7035,9464,-62,-58316,809,6395,-48,-34,50372,-84,-1,17316,39634,8060,-73,-29120,-9,97,8975,-57397,44122,3,5,-77,37196,10,44910,80,-2,-56,-22,6826,-14072,-5,-791,-912,5827,55038,6,25,70,53,-392,9346,7168,-1,39449,-934,-92,8586,73,-374,6767,57350,-98,-4522,-2,7120,8,9,-45621,-408,-12,-6653,976,-308,-41051,-37224,-988,-1,5706,30985,-30,62,7522,19,-69,-47,-108,-25,-856,2002,-2,2817,-762,-136,-1515,672,-867,-46,63531,2,-6293,-3743,4,51803,-9835,-9,1,-2464,55,-8734,11,-8713,9438,-8414,0,54,-7,-9,-3,-30,-3,48231,-8557,-6965,96,-2,93,27,3261,-9297,-7948,-5589,95,-1576,61289,4564,8246,825,-46,256};
 
-        int[] smallestK = new Q01SmallestK().smallestK2(arr, 402);
-        for (int res : smallestK) {
-            System.out.println(res);
-        }
+        int[] smallestK = new Q01SmallestK().smallestK2(arr, 4);
     }
 
     /**
      * 使用堆存储最小堆k个数，遍历一次数组
      */
     public int[] smallestK1(int[] arr, int k) {
+        long start = System.currentTimeMillis();
         PriorityQueue<Integer> heap = new PriorityQueue<Integer>(k, new Comparator<Integer>() {
             public int compare(Integer o1, Integer o2) {
                 return o2 - o1;
@@ -38,26 +37,34 @@ public class Q01SmallestK {
         for (int i = 0; i < k; i++) {
             res[i] = heap.poll();
         }
+        long end = System.currentTimeMillis();
+        System.out.println("使用堆实现，耗时："+(end-start));
         return res;
     }
 
     private int k;
 
+    /**
+     * 使用快速排序实现
+     */
     public int[] smallestK2(int[] arr, int k) {
+        long start = System.currentTimeMillis();
+        // 边界情况特殊处理
+        if (k >= arr.length)
+            return arr;
+
         this.k = k;
         split(arr, 0, arr.length-1);
         int[] res = new int[k];
         for (int i = 0; i < this.k; i++) {
             res[i] = arr[i];
         }
+        long end = System.currentTimeMillis();
+        System.out.println("使用快速排序实现，耗时："+(end-start));
         return res;
     }
 
     private void split(int[] arr, int start, int end) {
-        // 边界情况特殊处理
-        if (k >= arr.length)
-            return;
-
         int i = start;
         int j = end;
         int key = arr[start];
