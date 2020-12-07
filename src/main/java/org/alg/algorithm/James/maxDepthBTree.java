@@ -1,0 +1,24 @@
+package org.alg.algorithm.James;
+
+/**
+   Aurthor:zhuhua
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+      public int maxDepth(TreeNode root) {
+        return root == null ? 0 : 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+    }
+
+}
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}

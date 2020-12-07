@@ -1,10 +1,10 @@
-package org.alg.algorithm.jason;
+package org.alg.algorithm.jason.week1;
 
 import java.util.Stack;
 
 /**
- * Descreption:
- * 链表归并排序 https://leetcode-cn.com/problems/merge-two-sorted-lists/
+ * Descreption: 链表归并排序
+ * https://leetcode-cn.com/problems/merge-two-sorted-lists/
  *
  * Date: 2020年12月01日
  *

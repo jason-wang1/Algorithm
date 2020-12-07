@@ -1,9 +1,11 @@
-package org.alg.algorithm.jason;
+package org.alg.algorithm.jason.week1;
 
 import java.util.Stack;
 
 /**
- * Descreption: XXXX<br/>
+ * Descreption: 用两个栈实现一个堆
+ * https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
+ *
  * Date: 2020年12月01日
  *
  * @author WangBo
