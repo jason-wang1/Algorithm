@@ -5,7 +5,7 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 ## 训练范围
 训练的题目来自[力扣官网](https://leetcode-cn.com/problemset/all/)
 题目被划分成不同类型，两周为一个周期，能够训练完全部类型，具体如下：
-1. 数组+排序
+1. 双指针，二分查找
 2. 链表+堆
 3. 栈+队列
 4. 二叉树
@@ -33,5 +33,12 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-12-10   |   [两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/)   |
 |   2020-12-11   |   [幂集](https://leetcode-cn.com/problems/power-set-lcci/)   |
 |   2020-12-12   |   [股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)   |
+|   2020-12-13   |   无   |
+|   2020-12-14   |   [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)   |
+|   2020-12-15   |   [返回倒数第 k 个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)   |
+|   2020-12-16   |   [检查替换后的词是否有效](https://leetcode-cn.com/problems/check-if-word-is-valid-after-substitutions/)   |
+|   2020-12-17   |   [连续数列](https://leetcode-cn.com/problems/contiguous-sequence-lcci/)   |
+|   2020-12-18   |   [连续数列](https://leetcode-cn.com/problems/contiguous-sequence-lcci/)   |
+|   2020-12-19   |   [连续数列](https://leetcode-cn.com/problems/contiguous-sequence-lcci/)   |
 
 [力扣]: https://leetcode-cn.com/problemset/all/
