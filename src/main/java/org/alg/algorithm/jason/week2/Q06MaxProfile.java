@@ -1,8 +1,8 @@
 package org.alg.algorithm.jason.week2;
 
 /**
- * Descreption:
- *
+ * Descreption: 股票的最大利润
+ * https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/
  *
  * Date: 2020年12月10日
  *
