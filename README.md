@@ -37,8 +37,8 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-12-14   |   [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)   |
 |   2020-12-15   |   [返回倒数第 k 个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)   |
 |   2020-12-16   |   [检查替换后的词是否有效](https://leetcode-cn.com/problems/check-if-word-is-valid-after-substitutions/)   |
-|   2020-12-17   |   [连续数列](https://leetcode-cn.com/problems/contiguous-sequence-lcci/)   |
-|   2020-12-18   |   [连续数列](https://leetcode-cn.com/problems/contiguous-sequence-lcci/)   |
-|   2020-12-19   |   [连续数列](https://leetcode-cn.com/problems/contiguous-sequence-lcci/)   |
+|   2020-12-17   |   [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)   |
+|   2020-12-18   |   [检查平衡性](https://leetcode-cn.com/problems/check-balance-lcci/)   |
+|   2020-12-19   |   [礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/)   |
 
 [力扣]: https://leetcode-cn.com/problemset/all/
