@@ -9,10 +9,10 @@ package org.alg.algorithm.jason.week3;
  * @author WangBo
  * @version 1.0
  */
-public class TrappingRainWater {
+public class Q01TrappingRainWater {
     public static void main(String args[]){
         int[] rain = {4,2,0,3,2,5};
-        System.out.println(new TrappingRainWater().trap(rain));
+        System.out.println(new Q01TrappingRainWater().trap(rain));
     }
 
     public int trap(int[] height) {
