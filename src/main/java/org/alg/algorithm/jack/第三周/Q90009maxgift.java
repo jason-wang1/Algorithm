@@ -1,4 +1,4 @@
-package org.alg.algorithm.jack;
+package org.alg.algorithm.jack.第三周;
 
 /**
  * 剑指 Offer 47. 礼物的最大价值

@@ -1,4 +1,4 @@
-package org.alg.algorithm.jack;
+package org.alg.algorithm.jack.第二周;
 
 public class Q90004jieyushui {
     public int trap(int[] height){

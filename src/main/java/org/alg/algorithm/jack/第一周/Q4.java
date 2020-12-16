@@ -1,4 +1,4 @@
-package org.alg.algorithm.jack;
+package org.alg.algorithm.jack.第一周;
 
 /**
  * 指 Offer 54. 二叉搜索树的第k大节点
