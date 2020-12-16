@@ -13,9 +13,11 @@ package org.alg.algorithm.jack;
  * 链接：https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+
 class Q5 {
     public int maxDepth(TreeNode root) {
-        if(root == null) return 0;
+        if (root == null) return 0;
+
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
