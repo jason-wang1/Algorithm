@@ -1,4 +1,4 @@
-package org.alg.algorithm.jack;
+package org.alg.algorithm.jack.第一周;
 
 import java.util.Stack;
 
