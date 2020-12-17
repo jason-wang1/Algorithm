@@ -1,7 +1,7 @@
 package org.alg.algorithm.jason.week1;
 
-import org.alg.algorithm.jason.structure.BinaryTree;
-import org.alg.algorithm.jason.structure.BinaryTree.TreeNode;
+import org.alg.algorithm.jason.structure.BinarySearchTree;
+import org.alg.algorithm.jason.structure.BinarySearchTree.TreeNode;
 
 /**
  * Descreption: 计算一棵树的深度
@@ -15,8 +15,8 @@ import org.alg.algorithm.jason.structure.BinaryTree.TreeNode;
 public class Q05DepthOfBinaryTree {
     public static void main(String args[]){
         int[] arrs = {8, 5, 12, 3, 10, 11, 15};
-        BinaryTree binaryTree = new BinaryTree(arrs);
-        System.out.println("最大深度为："+maxDepth(binaryTree.root));
+        BinarySearchTree binarySearchTree = new BinarySearchTree(arrs);
+        System.out.println("最大深度为："+maxDepth(binarySearchTree.root));
     }
 
     static int resDepth = 0;
