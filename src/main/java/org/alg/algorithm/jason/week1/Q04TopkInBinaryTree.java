@@ -1,7 +1,7 @@
 package org.alg.algorithm.jason.week1;
 
-import org.alg.algorithm.jason.structure.BinarySearchTree;
-import org.alg.algorithm.jason.structure.BinarySearchTree.TreeNode;
+import org.alg.algorithm.jason.structure.BinaryTree;
+import org.alg.algorithm.jason.structure.BinaryTree.TreeNode;
 
 /**
  * Descreption: 查找一棵二叉树的第k大元素值
@@ -16,9 +16,9 @@ import org.alg.algorithm.jason.structure.BinarySearchTree.TreeNode;
 public class Q04TopkInBinaryTree {
     public static void main(String args[]){
         int[] arrs = {8, 5, 12, 3, 10, 11, 15};
-        BinarySearchTree binarySearchTree = new BinarySearchTree(arrs);
+        BinaryTree binaryTree = new BinaryTree(arrs);
 
-        System.out.println(kthLargest(binarySearchTree.root, 1));
+        System.out.println(kthLargest(binaryTree.root, 1));
     }
 
     static int count;

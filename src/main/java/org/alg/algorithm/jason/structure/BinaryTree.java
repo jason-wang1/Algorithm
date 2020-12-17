@@ -7,7 +7,7 @@ package org.alg.algorithm.jason.structure;
  * @author WangBo
  * @version 1.0
  */
-public class BinarySearchTree {
+public class BinaryTree {
     /**
      * 树的根节点
      */
@@ -44,7 +44,7 @@ public class BinarySearchTree {
         return root;
     }
 
-    public BinarySearchTree(int[] vals){
+    public BinaryTree(int[] vals){
         root = null;
         for (int val : vals) {
             put(val);
