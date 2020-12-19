@@ -1,4 +1,4 @@
-package org.alg.algorithm.jack;
+package org.alg.algorithm.jack.第二周;
 
 /**
  * 面试题 16.17. 连续数列

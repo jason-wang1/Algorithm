@@ -1,4 +1,6 @@
-package org.alg.algorithm.jack;
+package org.alg.algorithm.jack.第一周;
+
+import org.alg.algorithm.jack.第一周.TreeNode;
 
 /**
  * 输入一棵二叉树的根节点，求该树的深度。从根节点到叶节点依次经过的节点（含根、叶节点）形成树的一条路径，最长路径的长度为树的深度。
@@ -13,9 +15,11 @@ package org.alg.algorithm.jack;
  * 链接：https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
+
 class Q5 {
     public int maxDepth(TreeNode root) {
-        if(root == null) return 0;
+        if (root == null) return 0;
+
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
