@@ -8,7 +8,7 @@ import org.alg.algorithm.jason.structure.Node;
  * @author WangBo
  * @version 1.0
  */
-public class BinaryTreeAndLinkedList {
+public class Q01BinaryTreeAndLinkedList {
     public static void main(String args[]){
 
     }
