@@ -1,7 +1,9 @@
 package org.alg.algorithm.jason.week4;
 
 /**
- * Descreption: XXXX<br/>
+ * Descreption: 加油站
+ * https://leetcode-cn.com/problems/gas-station/
+ *
  * Date: 2020年12月22日
  *
  * @author WangBo
