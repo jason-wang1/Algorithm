@@ -54,5 +54,9 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-12-31   |   [树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)   |
 |   2021-01-01   |   [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)   |
 |   2021-01-02   |   [判断子序列](https://leetcode-cn.com/problems/is-subsequence/)   |
+|   2020-12-29   |   无   |
+|   2020-12-29   |   [至少有K个重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)   |
+|   2020-12-29   |   [有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)   |
+|   2020-12-29   |   [模式匹配](https://leetcode-cn.com/problems/pattern-matching-lcci/)
 
 [力扣]: https://leetcode-cn.com/problemset/all/
