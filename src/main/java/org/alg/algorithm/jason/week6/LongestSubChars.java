@@ -1,7 +1,6 @@
 package org.alg.algorithm.jason.week6;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Descreption: 至少有K个重复字符的最长子串
@@ -35,10 +34,10 @@ public class LongestSubChars {
         }
         //  如果该字符出现频次小于k，则不可能出现在结果子串中
         //  分别排除，然后挪动两个指针
-        while (p2 - p1 + 1 >= k && times[chars[p1] - 'a'] < k) {
+        while (p1 < p2 && times[chars[p1] - 'a'] < k) {
             ++p1;
         }
-        while (p2 - p1 + 1 >= k && times[chars[p2] - 'a'] < k) {
+        while (p1 < p2 && times[chars[p2] - 'a'] < k) {
             --p2;
         }
 
