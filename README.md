@@ -58,5 +58,8 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2020-01-04   |   [至少有K个重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)   |
 |   2020-01-05   |   [有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)   |
 |   2020-01-06   |   [模式匹配](https://leetcode-cn.com/problems/pattern-matching-lcci/)
+|   2021-01-07   |   [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)   |
+|   2021-01-08   |   [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)   |
+|   2021-01-09   |   [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)   |
 
 [力扣]: https://leetcode-cn.com/problemset/all/
