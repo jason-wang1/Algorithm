@@ -34,7 +34,7 @@ import java.util.Queue;
  */
 public class Q4 {
     public int findCircleNum(int[][] M) {
-        int[] visited = new int[M.length];
+        int[] visited = new int[M.length];//总共 N 个 学生，对其做标记，有朋友就标记 1
         int count = 0;
         Queue< Integer > queue = new LinkedList< >();
         for (int i = 0; i < M.length; i++) {
