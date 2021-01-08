@@ -11,10 +11,10 @@ import java.util.HashMap;
  * @author WangBo
  * @version 1.0
  */
-public class LongestSubChars {
+public class Q01LongestSubChars {
     public static void main(String args[]){
         String str = "bbaaacbd";
-        System.out.println(new LongestSubChars().longestSubstring(str, 3));
+        System.out.println(new Q01LongestSubChars().longestSubstring(str, 3));
     }
 
     public int longestSubstring(String s, int k) {
