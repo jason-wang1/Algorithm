@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Q04PrintBinaryTree {
     public static void main(String[] args) {
-        int[] arr = {5, 3, 9, 7, 1, 6};
+        Integer[] arr = {5, 3, 9, 7, 1, 6};
         BinaryTree binaryTree = new BinaryTree(arr);
         List<List<Integer>> lists = new Q04PrintBinaryTree().levelOrder(binaryTree.root);
         for (List<Integer> list : lists) {

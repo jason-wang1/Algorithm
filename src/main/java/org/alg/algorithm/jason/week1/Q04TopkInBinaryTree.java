@@ -15,7 +15,7 @@ import org.alg.algorithm.jason.structure.BinaryTree.TreeNode;
  */
 public class Q04TopkInBinaryTree {
     public static void main(String args[]){
-        int[] arrs = {8, 5, 12, 3, 10, 11, 15};
+        Integer[] arrs = {8, 5, 12, 3, 10, 11, 15};
         BinaryTree binaryTree = new BinaryTree(arrs);
 
         System.out.println(kthLargest(binaryTree.root, 1));

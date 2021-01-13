@@ -14,7 +14,7 @@ import org.alg.algorithm.jason.structure.BinaryTree.TreeNode;
  */
 public class Q05DepthOfBinaryTree {
     public static void main(String args[]){
-        int[] arrs = {8, 5, 12, 3, 10, 11, 15};
+        Integer[] arrs = {8, 5, 12, 3, 10, 11, 15};
         BinaryTree binaryTree = new BinaryTree(arrs);
         System.out.println("最大深度为："+maxDepth(binaryTree.root));
     }

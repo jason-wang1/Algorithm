@@ -1,5 +1,8 @@
 package org.alg.algorithm.jason.structure;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Descreption: XXXX<br/>
  * Date: 2020年12月03日
@@ -44,10 +47,23 @@ public class BinaryTree {
         return root;
     }
 
-    public BinaryTree(int[] vals){
-        root = null;
-        for (int val : vals) {
-            put(val);
+    public BinaryTree(Integer[] vals){
+        TreeNode p = new TreeNode(vals[0]);
+        this.root = p;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        int i = 0;
+        while (p != null){
+            if (2*i+1 < vals.length && vals[2*i+1] != null){
+                p.left = new TreeNode(vals[2*i+1]);
+                queue.add(p.left);
+            }
+            if (2*i+2 < vals.length && vals[2*i+2] != null){
+                p.right = new TreeNode(vals[2*i+2]);
+                queue.add(p.right);
+            }
+            p = queue.poll();
+            i+=1;
         }
     }
 }

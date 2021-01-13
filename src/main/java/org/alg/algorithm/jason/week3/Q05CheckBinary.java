@@ -5,7 +5,7 @@ import org.alg.algorithm.jason.structure.BinaryTree.TreeNode;
 
 public class Q05CheckBinary {
     public static void main(String[] args) {
-        int[] arr = {5, 3, 9, 7, 1};
+        Integer[] arr = {5, 3, 9, 7, 1};
         BinaryTree binaryTree = new BinaryTree(arr);
         System.out.println(new Q05CheckBinary().isBalanced(binaryTree.root));
     }

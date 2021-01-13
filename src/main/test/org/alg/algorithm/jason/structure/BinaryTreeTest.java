@@ -15,7 +15,7 @@ public class BinaryTreeTest {
 
     @Before
     public void init(){
-        int[] arrs = {8, 5, 12, 3, 10, 11};
+        Integer[] arrs = {8, 5, 12, 3, 10, 11};
         binaryTree = new BinaryTree(arrs);
     }
 

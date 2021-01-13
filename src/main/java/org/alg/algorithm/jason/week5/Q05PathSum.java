@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Q05PathSum {
     public static void main(String[] args) {
-        int[] ints = {10, 5, 15, 8, 12, 3, 6};
+        Integer[] ints = {10, 5, 15, 8, 12, 3, 6};
         BinaryTree binaryTree = new BinaryTree(ints);
         List<List<Integer>> lists = new Q05PathSum().pathSum(binaryTree.root, 29);
         for (List<Integer> list : lists) {
