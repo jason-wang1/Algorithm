@@ -65,7 +65,7 @@ Algorithm 是一个“数据结构与算法每日一练”项目，它旨在让�
 |   2021-01-11   |   [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)   |
 |   2021-01-12   |   [删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)   |
 |   2021-01-13   |   [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)   |
-|   2021-01-14   |   [将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/)   |
+|   2021-01-14   |   [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)   |
 |   2021-01-15   |   [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)   |
 |   2021-01-16   |   [分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)   |
 
