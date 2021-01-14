@@ -12,9 +12,20 @@ public class Q04ValidateBinaryTree {
     }
 
     public boolean isValidBST(TreeNode root) {
-        if (root == null) return true;
+        return helper(root, null, null);
+    }
 
-        return (root.left == null || (root.left.val < root.val && isValidBST(root.left)))
-                && (root.right == null || (root.right.val > root.val && isValidBST(root.right)));
+    private boolean helper(TreeNode node, Integer lower, Integer upper){
+        if (node == null) return true;
+
+        int val = node.val;
+
+        if (lower != null && val >= lower)
+            return false;
+
+        if (upper != null && val <= upper)
+            return false;
+
+        return helper(node.left, val, upper) && helper(node.right, lower, val);
     }
 }
